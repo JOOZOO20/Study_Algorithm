@@ -2,10 +2,10 @@
 
 num=input()
 list1=[]
-a=""
+result=""
 for i in num:
     list1.append(i)
 list1.sort(reverse=True)
 for i in list1:
-    a+=i
-print(int(a))
+    result+=i
+print(int(result))
