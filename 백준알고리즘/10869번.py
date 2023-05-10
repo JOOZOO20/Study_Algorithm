@@ -1,0 +1,7 @@
+#10869번_사칙연산 (두 자연수를 입력받아서 사칙연산을 계산하기)
+a,b=map(int,input().split())
+print(a+b)
+print(a-b)
+print(a*b)
+print(a//b)
+print(a%b)
